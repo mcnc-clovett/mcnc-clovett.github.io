@@ -23,7 +23,7 @@ github_username:  mcnc-clovett
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: minima
 plugins:
   - jekyll-feed
 
