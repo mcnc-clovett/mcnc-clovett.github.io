@@ -4,7 +4,7 @@ title:  "Zoom"
 ---
 ```js
 /* Zoom */
-var zoom = /zoom\.us(:443)?$/;
+var zoom = /^zoom\.us(:443)?$/;
 if (
     zoom.test(host) ||
     dnsDomainIs(host, ".zoom.us") ||
