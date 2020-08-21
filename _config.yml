@@ -1,6 +1,6 @@
 title: MCNC CNE Team
 author:
-  name: Chris Lovett
+  name: Chris Lovett - Senior CNE
   email: clovett@mcnc.org
 description: > # this means to ignore newlines until "show_excerpts:"
   The various posts on this page will hopefully aid the NCREN Community
@@ -20,14 +20,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    # twitter: jekyllrb
+    twitter: mcnc
     github:  mcnc-clovett
     # devto: jekyll
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: mcnc.ncren
     # flickr:   jekyll
     # instagram: jekyll
-    linkedin: christopherlovett
+    linkedin: mcnc
     # pinterest: jekyll
     youtube: MCNCvideos
     # youtube_channel: MCNCvideos
@@ -35,7 +35,7 @@ minima:
     # telegram: jekyll
     # googleplus: +jekyll
     # microdotblog: jekyll
-    keybase: chrislovett
+    # keybase: jekyll
 
     # Mastodon instances
     # mastodon:
