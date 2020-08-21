@@ -1,16 +1,11 @@
 ---
 layout: page
-title:  "GoGuardian"
+title:  "General Backend Services"
 ---
 ```js
-/* Added for GoGuardian */
+/* General Backend Services */
 if (
-  dnsDomainIs(host, ".goguardain.com") ||
-  dnsDomainIs(host, ".laptoplookout.com") ||
-  dnsDomainIs(host, "kinesis.us-west-2.amazonaws.com") ||
-  dnsDomainIs(host, "hosted-extensions.s3.us-west-2.amazonaws.com") ||
-  dnsDomainIs(host, "x3-report-uploads.s3.us-west-2.amazonaws.com") ||
-  dnsDomainIs(host, "beacon-report-uploads-prod.s3.us-west-2.amazonaws.com")
+  dnsDomainIs(host, ".akamaized.net") ||
 )
 return "DIRECT";
 ```

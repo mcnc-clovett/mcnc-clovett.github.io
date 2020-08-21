@@ -5,6 +5,8 @@ title:  "Microsoft Services"
 ```js
 /* Microsoft */
 if (
+  dnsDomainIs(host, ".microsoft.com") ||
+  dnsDomainIs(host, ".s-microsoft.com") ||
   dnsDomainIs(host, ".microsoftonline-p.com") ||
   dnsDomainIs(host, ".microsoftonline-p.net") ||
   dnsDomainIs(host, ".microsoftonline.com") ||
@@ -20,7 +22,10 @@ if (
   dnsDomainIs(host, ".office365.com") ||
   dnsDomainIs(host, ".officeapps.live.com") ||
   dnsDomainIs(host, ".outlook.com") ||
-  dnsDomainIs(host, "login.microsoftonline.com") ||
+  dnsDomainIs(host, ".live.com") ||
+  dnsDomainIs(host, ".microsoftonline.com") ||
+  dnsDomainIs(host, ".windowsupdate.com") ||
+  dnsDomainIs(host, ".gfx.ms") ||
   dnsDomainIs(host, "onedrive.live.com")
 )
 return "DIRECT";

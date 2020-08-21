@@ -32,6 +32,7 @@ return "DIRECT";
 /* Chromebooks */
 if (
   dnsDomainIs(host, "gweb-gettingstartedguide.appspot.com") ||
+  dnsDomainIs(host, ".gvt1.com") ||
   dnsDomainIs(host, "omahaproxy.appspot.com")
 )
 return "DIRECT";
