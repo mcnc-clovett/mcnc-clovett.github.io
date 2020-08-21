@@ -17,16 +17,14 @@ if (
   dnsDomainIs(host, "accounts.google.com") ||
   dnsDomainIs(host, "tools.google.com") ||
   dnsDomainIs(host, "pack.google.com")
-)
-return "DIRECT";
+) return "DIRECT";
 ```
 ```js
 /* Google Classroom */
 if (
   dnsDomainIs(host, "classroom.google.com") ||
   dnsDomainIs(host, "edu.google.com")
-)
-return "DIRECT";
+) return "DIRECT";
 ```
 ```js
 /* Chromebooks */
@@ -34,22 +32,19 @@ if (
   dnsDomainIs(host, "gweb-gettingstartedguide.appspot.com") ||
   dnsDomainIs(host, ".gvt1.com") ||
   dnsDomainIs(host, "omahaproxy.appspot.com")
-)
-return "DIRECT";
+) return "DIRECT";
 ```
 ```js
 /* Google Drive */
 if (
   dnsDomainIs(host, "drive.google.com") ||
   dnsDomainIs(host, "googledrive.com")
-)
-return "DIRECT";
+) return "DIRECT";
 ```
 ```js
 /* Google Doc */
 if (
   dnsDomainIs(host, "docs.google.com") ||
   dnsDomainIs(host, "googledocs.com")
-)
-return "DIRECT";
+) return "DIRECT";
 ```

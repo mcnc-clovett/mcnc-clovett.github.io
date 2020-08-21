@@ -6,6 +6,5 @@ title:  "General Backend Services"
 /* General Backend Services */
 if (
   dnsDomainIs(host, ".akamaized.net") ||
-)
-return "DIRECT";
+) return "DIRECT";
 ```

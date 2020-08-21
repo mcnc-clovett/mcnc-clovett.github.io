@@ -6,6 +6,8 @@ title:  "PAC Snippets"
 
 [Microsoft Services](./microsoft-services.html)
 
+[Apple Services](./apple.html)
+
 [Zoom](./zoom.html)
 
 [GoGuardian](./goguardian.html)

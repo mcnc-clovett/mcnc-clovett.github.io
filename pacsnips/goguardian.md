@@ -11,6 +11,5 @@ if (
   dnsDomainIs(host, "hosted-extensions.s3.us-west-2.amazonaws.com") ||
   dnsDomainIs(host, "x3-report-uploads.s3.us-west-2.amazonaws.com") ||
   dnsDomainIs(host, "beacon-report-uploads-prod.s3.us-west-2.amazonaws.com")
-)
-return "DIRECT";
+) return "DIRECT";
 ```
