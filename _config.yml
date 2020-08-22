@@ -3,10 +3,7 @@ author:
   name: Chris Lovett - Senior CNE
   email: clovett@mcnc.org
 description: > # this means to ignore newlines until "show_excerpts:"
-  The various posts on this page will hopefully aid the NCREN Community
-  in their day-to-day work life. If you have any recommendations that
-  may help the broader K-12 or higher education technology communities of
-  North Carolina, please drop me an email.
+  Providing support for the NCREN Community
 
 show_excerpts: true # set to true to show excerpts on the homepage
 header_pages:
