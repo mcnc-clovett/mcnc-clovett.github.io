@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   may help the broader K-12 or higher education technology communities of
   North Carolina, please drop me an email.
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 header_pages:
   - pacsnips/pac-file-code.md
 
