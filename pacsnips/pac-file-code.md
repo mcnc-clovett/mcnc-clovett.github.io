@@ -15,6 +15,8 @@ page for more assistance.
 
 [Zoom](./zoom.html)
 
+[Canvas](./canvas.html)
+
 [GoGuardian](./goguardian.html)
 
 [General Backend Services](./general.html)

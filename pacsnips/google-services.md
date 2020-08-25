@@ -20,6 +20,15 @@ if (
 ) return "DIRECT";
 ```
 ```js
+/* YouTube */
+if (
+  dnsDomainIs(host, ".youtube.com") ||
+  dnsDomainIs(host, ".youtube-nocookie.com") ||
+  dnsDomainIs(host, ".ytimg.com") ||
+  dnsDomainIs(host, ".googlevideo.com")
+) return "DIRECT";
+```
+```js
 /* Google Classroom */
 if (
   dnsDomainIs(host, "classroom.google.com") ||
