@@ -15,7 +15,11 @@ page for more assistance.
 
 [Zoom](./zoom.html)
 
+[NCEdCloud](./ncedcloud.html)
+
 [Canvas](./canvas.html)
+
+[Seesaw](./seesaw.html)
 
 [GoGuardian](./goguardian.html)
 
