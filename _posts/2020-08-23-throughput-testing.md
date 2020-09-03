@@ -95,7 +95,7 @@ may be sufficient for your tests. We'll cover the "reverse," or inbound, test in
 
 ### Windows
 
-Open up cmd.exe and `cd` to the diectory where you extracted iPerf to. Now run iPerf with the `-c` option to 
+Open up cmd.exe[^1] and type the full path to the location where you extracted iPerf to earlier, using the `-c` option to 
 start the throughput test. In this instance, our server is `192.168.0.10`. The test will run for 10 seconds by default, 
 pushing as much data as possible.
 
@@ -170,11 +170,10 @@ iperf Done.
 ## Performing a Test Through Your Firewall
 
 If you are a member of the NCREN Community and need to perform an iPerf test through your firewall, contact 
-[MCNC Support](https://www.mcnc.org/support){:target="_blank"}.
-Performing an outbound test from a client behind your firewall will require an entry in the inside ACL[^2] on 
-your firewall for port 5201/tcp. Likewise, an inbound test will require a NAT[^3] between an external address and 
-your client device. You will also need to allow port 5201/tcp inbound to the client with an entry in the outside 
-ACL on the firewall as well.
+[MCNC Support](https://www.mcnc.org/support){:target="_blank"}. Performing an outbound test from a client behind 
+your firewall will require an entry in the inside ACL[^2] on your firewall for port 5201/tcp. Likewise, an inbound 
+test will require a NAT[^3] between an external address and your client device. You will also need to allow port 
+201/tcp inbound to the client with an entry in the outside ACL on the firewall as well.
 
 <br>
 <br>
