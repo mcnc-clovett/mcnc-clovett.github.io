@@ -5,16 +5,13 @@ title:  "Google Services"
 ```js
 /* most Google services */
 if (
+  /clients\d\.google\.com$/.test(host) || // clients*.google.com
   dnsDomainIs(host, ".googleapis.com") ||
   dnsDomainIs(host, ".gstatic.com") ||
   dnsDomainIs(host, ".googleusercontent.com") ||
-  dnsDomainIs(host, "clients1.google.com") ||
-  dnsDomainIs(host, "clients2.google.com") ||
-  dnsDomainIs(host, "clients3.google.com") ||
-  dnsDomainIs(host, "clients4.google.com") ||
-  dnsDomainIs(host, "clients5.google.com") ||
-  dnsDomainIs(host, "clients6.google.com") ||
   dnsDomainIs(host, "accounts.google.com") ||
+  dnsDomainIs(host, "meet.google.com") ||
+  dnsDomainIs(host, "chat.google.com") ||
   dnsDomainIs(host, "tools.google.com") ||
   dnsDomainIs(host, "pack.google.com")
 ) return "DIRECT";
