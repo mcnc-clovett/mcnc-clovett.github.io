@@ -11,7 +11,7 @@ title:  "Wireshark Profiles"
 Having a HAR file is great when you're in a web browser. Sometimes you need to troubleshoot apps 
 that don't give you that convenience. This profile will help with that problem by posting the hosts 
 needed in your pac file directly to the screen. Once the profile is imported and loaded, set the 
-capture filter to the saved `Zscaler ports: port 80 or port 9943` on your internet connected interface.
+capture filter to the saved `Zscaler ports: port 80 or port 9443` on your internet connected interface.
 Three display filters have been saved, `PAC Files`, `Hosts` and `PAC n Hosts`. These will display 
 the PAC files as they are downloaded and the "host" requests as they are made respectively. The entries in the `Host` 
 column are what you need to add to your PAC file.
