@@ -5,7 +5,7 @@ title:  "Zoom"
 ```js
 /* Zoom */
 if (
-    /^zoom\.us$/.test(host) ||
+    /^zoom\.us(:443)?$/.test(host) ||
     dnsDomainIs(host, ".zoom.us") ||
     dnsDomainIs(host, ".cloudfront.net") ||
     dnsDomainIs(host, ".ada.support")
