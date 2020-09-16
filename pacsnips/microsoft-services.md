@@ -21,12 +21,14 @@ if (
   dnsDomainIs(host, ".office.net") ||
   dnsDomainIs(host, ".office.com") ||
   dnsDomainIs(host, ".office365.com") ||
+  dnsDomainIs(host, ".microsoft365.com") ||
   dnsDomainIs(host, ".officeapps.live.com") ||
   dnsDomainIs(host, ".outlook.com") ||
   dnsDomainIs(host, ".live.com") ||
   dnsDomainIs(host, ".live.net") ||
   dnsDomainIs(host, ".microsoftonline.com") ||
   dnsDomainIs(host, ".sharepointonline.com") ||
+  dnsDomainIs(host, ".sharepoint.com")
   dnsDomainIs(host, ".windowsupdate.com") ||
   dnsDomainIs(host, ".gfx.ms") ||
   dnsDomainIs(host, "onedrive.live.com")
