@@ -89,7 +89,7 @@ if (dnsDomainIs(host, "www.example.com")) return "DIRECT";
 #### Alternative resolution to the "no dot" issue
 
 You can also use regular expressions, also known as regex, to match domains without matching potentially bad sites. 
-This is only recommended if you have indepth knowledge of regex. For example to match `example.com` and not `xxxemaple.com`,
+This is only recommended if you have indepth knowledge of regex. For example to match `example.com` and not `xxxexample.com`,
 you would use the following:
 
 ```js
