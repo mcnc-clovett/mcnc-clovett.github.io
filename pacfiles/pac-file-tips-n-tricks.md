@@ -93,5 +93,5 @@ This is only recommended if you have indepth knowledge of regex. For example to 
 you would use the following:
 
 ```js
-if (/^example.com$/.test(host)) return "DIRECT";
+if (/^(.+\.)?google\.com$/.test(host)) return "DIRECT";
 ```

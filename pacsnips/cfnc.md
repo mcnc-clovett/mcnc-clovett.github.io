@@ -5,8 +5,7 @@ title:  "CFNC.org"
 ```js
 /* CFNC */
 if (
-    /^cfnc.org$/.test(host) ||
-    dnsDomainIs(host, ".cfnc.org") ||
+    /^(.+\.)?cfnc\.org$/.test(host) || // "cfnc.org" & ".cfnc.org"
     dnsDomainIs(host, "maxcdn.bootstrapcdn.com") ||
     dnsDomainIs(host, "cdnjs.cloudflare.com") ||
     dnsDomainIs(host, "code.jquery.com") ||
