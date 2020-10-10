@@ -17,6 +17,8 @@ page for more assistance.
 
 [NCEdCloud](./ncedcloud.html)
 
+[CFNC.org](./cfnc.html)
+
 [Canvas](./canvas.html)
 
 [Seesaw](./seesaw.html)
