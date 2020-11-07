@@ -2,7 +2,7 @@
 layout: page
 title:  "Network Throughput Testing with iPerf"
 ---
-Should you want to test your througput between two points in your network, you'll need a tool like 
+Should you want to test your throughput between two points in your network, you'll need a tool like 
 [iPerf](https://github.com/esnet/iperf){:target="_blank"} to do so. This guide will show you how to 
 get the client and server up and running, as well as demonstrate the proper usage.
 
