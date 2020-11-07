@@ -43,3 +43,7 @@ Essentially, you need to create a `UDP` service/port group and add port `500` (a
 a group for the Wifi Calling destinations in the table above and add them to it. You can then add a rule on your inside interface, allowing 
 traffic out on these ports to the needed destinations. As long as you are not allowing these ports to flow in another rule, VPN should remain 
 blocked and Wifi Calling should now be usable.
+
+You may want to add a source subnet for where you want Wifi calls to be made from, such as a certain Wifi network where cell phones will be 
+connecting. A typical Wifi call will use less than 250Kbps, most times much less. Bandwidth shouldn't be a concern when deciding whether to 
+allow Wifi calling on your network.
