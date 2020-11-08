@@ -2,7 +2,7 @@
 layout: page
 title:  "Allowing Wifi Calling"
 ---
-Cell phone coverage can be spotty is some areas, as we all know. This is especially true in old concrete-walled buildings. 
+Cell phone coverage can be spotty in some areas, as we all know. This is especially true in old concrete-walled buildings. 
 Since most, if not all, educational institutions today have a wireless infrastructure, we have a way of mitigating this problem. 
 Through a feature called wifi calling, we can allow users to make and receive phone calls using the local internet infrastructure. 
 This is especially important for possible emergency situations where someone may not have immediate access to a landline.
