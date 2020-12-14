@@ -17,9 +17,9 @@ to bypass your filtering system. Below, we'll discuss what exactly is needed to 
 We have to determine where the traffic is going so that we can limit where the needed ports can go. Below are the known hostnames for the 
 major carriers:
 
-| Verizon | AT&T | T-Mobile |
-| ------- | ---- | -------- |
-| wo.vzwwo.com | epdg.epc.att.net | 208.54.0.0/17 |
+| Verizon | AT&T | T-Mobile | US Cellular |
+| ------- | ---- | -------- | ----------- |
+| wo.vzwwo.com | epdg.epc.att.net | 208.54.0.0/17 | 198.230.224.0/20 |
 
 ### What rules are needed in the firewall
 Now that we have the destinations, and we know the ports are `UDP` `500` & `4500`, we can add rules to the firewall to allow these 
@@ -33,6 +33,7 @@ object network Wifi_Calling_Hosts
  fqdn v4 epdg.epc.att.net
  fqdn v4 wo.vzwwo.com
  subnet 208.54.0.0 255.255.128.0
+ subnet 198.230.224.0 255.255.240.0
 object-group service Wifi_Calling_Svc udp
  port-object eq isakmp
  port-object eq 4500
