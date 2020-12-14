@@ -45,7 +45,7 @@ object-group network Wifi_Calling_Hosts
 object-group service Wifi_Calling_Svc udp
  port-object eq isakmp
  port-object eq 4500
-access-list inside_access_in extended permit udp any object Wifi_Calling_Hosts object-group Wifi_Calling_Svc
+access-list inside_access_in extended permit udp any object-group Wifi_Calling_Hosts object-group Wifi_Calling_Svc
 ```
 
 Essentially, you need to create a `UDP` service/port group and add port `500` (also known as `isakmp`) as well as `4500` to it. Also, create 
