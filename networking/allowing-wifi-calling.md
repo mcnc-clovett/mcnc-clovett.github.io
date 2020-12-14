@@ -29,11 +29,19 @@ one of the above addresses from the firewall itself. If the hostname resolves, y
 Many entities are using Cisco ASAs currently, so the needed code for these firewalls is as follows:
 
 ```
-object network Wifi_Calling_Hosts
+object network Wifi_Calling_ATT
  fqdn v4 epdg.epc.att.net
+object network Wifi_Calling_Verizon
  fqdn v4 wo.vzwwo.com
+object network Wifi_Calling_TMobile
  subnet 208.54.0.0 255.255.128.0
+object network Wifi_Calling_USCellular
  subnet 198.230.224.0 255.255.240.0
+object-group network Wifi_Calling_Hosts
+ network-object object Wifi_Calling_ATT
+ network-object object Wifi_Calling_Verizon
+ network-object object Wifi_Calling_TMobile
+ network-object object Wifi_Calling_USCellular
 object-group service Wifi_Calling_Svc udp
  port-object eq isakmp
  port-object eq 4500
@@ -41,7 +49,7 @@ access-list inside_access_in extended permit udp any object Wifi_Calling_Hosts o
 ```
 
 Essentially, you need to create a `UDP` service/port group and add port `500` (also known as `isakmp`) as well as `4500` to it. Also, create 
-a group for the Wifi Calling destinations in the table above and add them to it. You can then add a rule on your inside interface, allowing 
+objects for the Wifi Calling destinations in the table above and add them to a group. You can then add a rule on your inside interface, allowing 
 traffic out on these ports to the needed destinations. As long as you are not allowing these ports to flow in another rule, VPN should remain 
 blocked and Wifi Calling should now be usable.
 
