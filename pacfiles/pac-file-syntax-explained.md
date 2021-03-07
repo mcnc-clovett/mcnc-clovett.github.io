@@ -33,12 +33,12 @@ function FindProxyForURL(url, host) {
     if (
         dnsDomainIs(host, ".example.com") ||
         dnsDomainIs(host, ".example.org") ||
-        dnsDoaminIs(host, "sub.example.net")
+        dnsDomainIs(host, "sub.example.net")
     ) return "DIRECT";
     /* Multiple statements  - easier but slower on device */
-    if (dnsDoaminIs(host, ".example.com")) return "DIRECT";
-    if (dnsDoaminIs(host, ".example.org")) return "DIRECT";
-    if (dnsDoaminIs(host, "sub.example.net")) return "DIRECT";
+    if (dnsDomainIs(host, ".example.com")) return "DIRECT";
+    if (dnsDomainIs(host, ".example.org")) return "DIRECT";
+    if (dnsDomainIs(host, "sub.example.net")) return "DIRECT";
     
      /* Default Traffic Forwarding. */
     return "PROXY node1.example.com:9443; PROXY node2.example.com:9443";
