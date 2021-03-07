@@ -71,20 +71,20 @@ Let’s now configure PowerShell script signing by doing the following:
 ## Sign a Script and Test {#signing}
 1. Open PowerShell as the user who was issued the certificate
 2. Create a test script with 
-```
+```powershell
 echo “Write-Host ‘Hello World!’” > test.ps1
 ```
 3. Store the certificate in a variable with 
-```
+```powershell
 $cert = Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert
 ```
 4. Sign the script 
-```
+```powershell
 Set-AuthenticodeSignature -Certificate $cert -TimestampServer http://timestamp.digicert.com .\test.ps1
 ```
     * The time stamp server is important because without a verified time of signing, the script will no longer be vaid if your certificate expires. Using a time stamp certification in the signature will verify that the certificate was valid at the time it was signed.
 5. Verify the script was signed 
-```
+```powershell
 Get-AuthenticodeSignature .\test.ps1  | select *
 ```
 6. Run the script `./test.ps1`
