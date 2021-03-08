@@ -2,8 +2,6 @@
 layout: page
 title:  "Securing Admins with Smart Cards (Yubikeys)"
 ---
-***Page in development***
-
 We all know that giving local admin rights to normal users is a **big no-no**, but what happens if an administrator’s account is compromised? What if a domain admin’s account credentials are obtained? To prevent a potentially catastrophic event, you should use some form of multi-factor authentication to protect those accounts. We all understand that some normal users find difficultly with using multi-factor logins, but as administrators, we don’t really have a choice. *The fate of the network is in our hands.*
 
 One way of providing security is **only using admin credentials when necessary**. Another step on top of that is to use multi-factor authentication. One method that is fairly easy to set up is a smart card implementation. For this example we are going to use the [Yubikey](https://www.yubico.com){:target="_blank"} product, which provides Personal Identity Verification (PIV) functionality. This allows us to store an authentication certificate on a portable key to use to log in to an admin account.

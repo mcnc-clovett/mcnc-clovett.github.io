@@ -24,6 +24,6 @@ layout: default
 
 [Securing Admins with Smart Cards (Yubikeys)](/security/securing-admins-with-smart-cards-yk.html)<br>
 
-## Powershell
+## PowerShell
 
 [PowerShell Script Signing](/powershell/powershell-script-signing.html)<br>
