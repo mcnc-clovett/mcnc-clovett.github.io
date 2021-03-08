@@ -20,6 +20,10 @@ layout: default
 [Capture Packets on iOS Devices](/networking/ios-packet-capture.html)<br>
 [Allowing Wifi Calling](/networking/allowing-wifi-calling.html)
 
+## Security
+
+[Securing Admins with Smart Cards (Yubikeys)](/security/securing-admins-with-smart-cards-yk.html)<br>
+
 ## Powershell
 
 [PowerShell Script Signing](/powershell/powershell-script-signing.html)<br>
