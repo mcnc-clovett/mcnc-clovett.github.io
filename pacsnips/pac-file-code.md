@@ -25,4 +25,6 @@ page for more assistance.
 
 [GoGuardian](./goguardian.html)
 
+[Minecraft for Education](./minecraft-for-education.html)
+
 [General Backend Services](./general.html)
