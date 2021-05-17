@@ -23,6 +23,7 @@ layout: default
 ## Security
 
 [Securing Admins with Smart Cards (Yubikeys)](/security/securing-admins-with-smart-cards-yk.html)<br>
+[SSL Certificate Management](/security/ssl_certificate_management.html)<br>
 
 ## PowerShell
 
