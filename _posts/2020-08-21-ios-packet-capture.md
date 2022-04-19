@@ -2,8 +2,8 @@
 layout: post
 title:  "Capture Packets on iOS Devices"
 date:   2020-08-21 01:11:00 -0400
-categories: Networking Wireshark
-tags: networking wireshark apple ios
+categories: [Networking, Wireshark]
+tags: [networking, wireshark, apple, ios, troubleshooting]
 ---
 From time to time you may need to gather some information about what an iOS device is doing on 
 your network. For instance, you may need to know what URLs an app is using so it can be bypassed 

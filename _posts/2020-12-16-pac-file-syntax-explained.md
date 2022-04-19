@@ -2,8 +2,8 @@
 layout: post
 title:  "PAC File Syntax Explained"
 date:   2020-12-16 00:00:00 -0400
-categories: 'PAC Files'
-tags: pacfiles zscaler filtering
+categories: [PAC Files]
+tags: [pacfiles, zscaler, filtering]
 ---
 PAC files can seem a bit complicated at first, but keep in mind that they are just a javascript function with only two inputs. 
 We'll be going over an example PAC file and discussing what each section does, as well as the correct syntax. Proper syntax 

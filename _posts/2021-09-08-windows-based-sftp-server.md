@@ -2,8 +2,8 @@
 layout: post
 title:  "Windows-based SFTP Server"
 date:   2021-09-08 00:00:00 -0400
-categories: Networking General
-tags: networking ssh windows sftp security
+categories: [Networking, Services]
+tags: [networking, ssh, windows, sftp, security]
 ---
 This guide demonstrates the precedure for creating a Windows-based SFTP server using the built-in OpenSSH instance. The end result is an SFTP server only available to the “sftpusers” group via sftp only. There will be **no** ssh shell access to the server.
 

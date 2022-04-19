@@ -2,8 +2,8 @@
 layout: post
 title:  "Best Method to Share Files Securely: GPG"
 date:   2021-11-15 00:00:00 -0400
-categories: Security Encryption
-tags: security gpg gnupg pgp encryption
+categories: [Security, Encryption]
+tags: [security, gpg, gnupg, pgp, encryption]
 published: false
 ---
 I'm often asked what is the most secure method for sending files over the internet. Is Google Drive a safe option? How about 

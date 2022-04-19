@@ -2,8 +2,8 @@
 layout: post
 title:  "Network Throughput Testing with iPerf"
 date:   2020-08-23 17:31:00 -0400
-categories: Networking General
-tags: networking iperf bandwidth throughput
+categories: [Networking, Troubleshooting]
+tags: [networking, iperf, bandwidth, throughput, troubleshooting]
 ---
 Should you want to test your througput between two points in your network, you'll need a tool like 
 [iPerf](https://github.com/esnet/iperf){:target="_blank"} to do so. This guide will show you how to 

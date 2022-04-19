@@ -2,8 +2,8 @@
 layout: post
 title:  "PowerShell Script Signing"
 date:   2021-03-07 00:00:00 -0400
-categories: Powershell General
-tags: powershell security certificates codesigning
+categories: [Powershell]
+tags: [powershell, security, certificates, code signing]
 ---
 Windows PowerShell has what’s called an **Execution Policy**. This policy defines how scripts are handled, and by default it is set to **Restricted**, which means no script is allowed to run. This is to prevent anyone from accidentally running a rogue script on the computer. What we typically see are Execution Policies set to **Bypass**, which allows any script to run. Anyone with administrative rights can set this, which makes Execution Policy more of a *safety* feature than a *security* one.
 

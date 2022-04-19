@@ -2,8 +2,8 @@
 layout: post
 title:  "SSL Certificate Management"
 date:   2021-05-17 00:00:00 -0400
-categories: Security General
-tags: security certificate pem crt cer pfx p7b p12 openssl
+categories: [Security, Certificates]
+tags: [security, certificate, pem, crt, cer, pfx, p7b, p12, openssl]
 ---
 
 ## PEM Format (\*.pem \\ \*\.crt \\ \*\.cer \\ \*.key) {#pem}

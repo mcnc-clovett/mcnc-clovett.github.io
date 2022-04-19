@@ -2,8 +2,8 @@
 layout: post
 title:  "Allowing Wifi Calling"
 date:   2020-12-14 00:00:00 -0400
-categories: Networking General
-tags: networking wifi calling cell phone
+categories: [Networking, Firewall]
+tags: [networking, wifi calling, cell phone]
 ---
 Cell phone coverage can be spotty in some areas, as we all know. This is especially true in old concrete-walled buildings. 
 Since most, if not all, educational institutions today have a wireless infrastructure, we have a way of mitigating this problem. 
@@ -20,8 +20,8 @@ to bypass your filtering system. Below, we'll discuss what exactly is needed to 
 We have to determine where the traffic is going so that we can limit where the needed ports can go. Below are the known hostnames for the 
 major carriers:
 
-| Verizon | AT&T | T-Mobile | US Cellular |
-| ------- | ---- | -------- | ----------- |
+|    Verizon   |       AT&T       |    T-Mobile   |    US Cellular   |
+|:------------:|:----------------:|:-------------:|:----------------:|
 | wo.vzwwo.com | epdg.epc.att.net | 208.54.0.0/17 | 198.230.224.0/20 |
 
 ### What rules are needed in the firewall

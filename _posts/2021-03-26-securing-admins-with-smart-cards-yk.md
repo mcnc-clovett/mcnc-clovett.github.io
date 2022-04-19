@@ -2,8 +2,8 @@
 layout: post
 title:  "Securing Admins with Smart Cards (Yubikeys)"
 date:   2021-03-26 00:00:00 -0400
-categories: Security General
-tags: security gpg gnupg pgp encryption yubikey smartcard certificates windows powershell
+categories: [Security, Authentication]
+tags: [security, gpg, gnupg, pgp, encryption, yubikey, smartcard, certificates, windows, powershell]
 ---
 We all know that giving local admin rights to normal users is a **big no-no**, but what happens if an administrator’s account is compromised? What if a domain admin’s account credentials are obtained? To prevent a potentially catastrophic event, you should use some form of multi-factor authentication to protect those accounts. We all understand that some normal users find difficultly with using multi-factor logins, but as administrators, we don’t really have a choice. *The fate of the network is in our hands.*
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "GnuPG - Encrypting Files with a Password"
 date:   2021-11-16 00:00:00 -0400
-categories: Security Encryption
-tags: security gpg gnupg pgp encryption
+categories: [Security, Encryption]
+tags: [security, gpg, gnupg, pgp, encryption]
 ---
 Encrypting files or data with a password is called symmetric encryption. The benefit to this method is the speed of the encryption and decryption process, so it is more suited to large files and data in bulk. However, the downside is that the password must be shared by some other means, whether by email, instant message, phone or in person. Also, anyone who gains access to the password will be able to access the data.
 

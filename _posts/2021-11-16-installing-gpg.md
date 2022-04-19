@@ -2,8 +2,8 @@
 layout: post
 title:  "GnuPG - Intro & Installation"
 date:   2021-11-16 00:00:00 -0400
-categories: Security Encryption
-tags: security gpg gnupg pgp encryption
+categories: [Security, Encryption]
+tags: [security, gpg, gnupg, pgp, encryption]
 ---
 You can skip right to the installation for [Windows](#windows) or [macOS](#macos). GnuPG is included in all major Linux distributions.
 

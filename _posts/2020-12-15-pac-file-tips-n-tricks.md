@@ -2,8 +2,8 @@
 layout: post
 title:  "PAC File Tips & Tricks"
 date:   2020-12-15 00:00:00 -0400
-categories: 'PAC Files'
-tags: pacfiles zscaler filtering
+categories: [PAC Files]
+tags: [pacfiles, zscaler, filtering]
 ---
 Lets try to clear up some common questions and issues with PAC files
 

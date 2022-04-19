@@ -2,8 +2,8 @@
 layout: post
 title:  "GnuPG - Encrypting Files with a Public Key"
 date:   2022-02-09 00:00:00 -0400
-categories: Security Encryption
-tags: security gpg gnupg pgp encryption
+categories: [Security, Encryption]
+tags: [security, gpg, gnupg, pgp, encryption]
 ---
 Encrypting files or data with a public key is called asymmetric encryption. The benefit to this method is the extra security of encrypting data for a specific recipient. This is done by using the person's **public key** to encrypt the data, which they then decrypt with their **private key** that only they have access to. Using this method, you do not have to exchange a password which could compromise the confidential data.
 
