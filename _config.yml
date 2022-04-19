@@ -21,7 +21,7 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: MCNC CNE Team                          # the main title
+title: MCNC CNE                          # the main title
 
 tagline: Client Network Engineers   # it will display as the sub-title
 
