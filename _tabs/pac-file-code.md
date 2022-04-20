@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "PAC Snippets"
+icon: fas fa-code
 order: 3
 ---
 Below are various pac file code snippets for several services we've found in our 
