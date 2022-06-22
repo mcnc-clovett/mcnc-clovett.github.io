@@ -95,7 +95,7 @@ Should the user need to step away from a machine or remote desktop session, the 
     1. Under **Computer Configuration>Policies>Windows Settings>Security Settings>System Services**:
         * Set **Smart Card Removal Policy** to **Automatic**
             * *(Keep in mind, the service will not auto-start until the device is rebooted. You can also start the service manually if you are unable to reboot a device at the time.)*
-    2. Under **Computer Configuration>Policies>Windows Settings>Security Settings>Security Options**:
+    2. Under **Computer Configuration>Policies>Windows Settings>Security Settings>Local Policies>Security Options**:
         * Set **Interactive logon: Smart card removal behavior** to **Disconnect if a remote Remote Desktop Services session**
 
 #### Set Local Administrators
