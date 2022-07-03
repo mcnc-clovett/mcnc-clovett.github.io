@@ -5,7 +5,7 @@ date:   2022-07-01 00:00:00 -0400
 categories: [Networking, Services]
 tags: [networking, ssh, linux, sftp, security]
 ---
-This guide demonstrates the precedure for creating a Linux-based SFTP server using OpenSSH. The end result is an SFTP server only available to the “sftpusers” group via sftp only. There will be **no** ssh shell access to the server.
+This guide demonstrates the precedure for creating a Linux-based SFTP server using OpenSSH. The end result is an SFTP server only available to the “sftpusers” group via sftp only. SSH shell access will only be available to users outside of that group. Also, internet-based devices will require an SSH key to login to a shell.
 
 ## System Requirements
 * Any Linux distribution will suffice,
@@ -63,9 +63,9 @@ sudo nano sshd_config
 
 ```
 HostKey /etc/ssh/ssh_host_rsa_key
-HostKey /etc/ssh/ssh_host_ecdsa_key
 HostKey /etc/ssh/ssh_host_ed25519_key
 
+# Set this to "yes" to allow logins to shell from the internet without an SSH key
 PasswordAuthentication no
 PubkeyAuthentication yes
 PermitRootLogin prohibit-password
@@ -80,6 +80,7 @@ DisableForwarding yes
 Subsystem       sftp    internal-sftp
 
 Match Group sftpusers
+        # Set this to "no" to require SSH key for SFTP users
         PasswordAuthentication yes
         ForceCommand internal-sftp
         ChrootDirectory /sftp
@@ -87,6 +88,7 @@ Match Group sftpusers
         PermitTunnel no
 
 Match Address 10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+        # Set this to "no" to require SSH key to login from local nets
         PasswordAuthentication yes
 ```
 
