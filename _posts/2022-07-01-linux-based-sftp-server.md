@@ -2,7 +2,7 @@
 layout: post
 title:  "Linux-based SFTP Server"
 date:   2022-07-01 00:00:00 -0400
-categories: [Networking, Services]
+categories: [Services, SSH / SFTP]
 tags: [networking, ssh, linux, sftp, security]
 ---
 This guide demonstrates the precedure for creating a Linux-based SFTP server using OpenSSH. The end result is an SFTP server only available to the “sftpusers” group via sftp only. SSH shell access will only be available to users outside of that group. Also, internet-based devices will require an SSH key to login to a shell.
