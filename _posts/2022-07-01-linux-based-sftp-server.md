@@ -90,8 +90,6 @@ Match Address 10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
 EOF
 ```
 
-- Close the config file with `Ctrl-X`, then press `Y` to confirm the changes and press `Enter` to close it.
-
 ## Restart OpenSSH Service
 1. With the new config file in place, restart the `sshd` service
 ```shell
