@@ -58,8 +58,7 @@ sudo mv sshd_config sshd_config.bak
 2. Create a new config file
 
 ```shell
-sudo cat > sshd_config << EOF
-HostKey /etc/ssh/ssh_host_rsa_key
+sudo echo 'HostKey /etc/ssh/ssh_host_rsa_key
 HostKey /etc/ssh/ssh_host_ed25519_key
 
 # Set this to "yes" to allow logins to shell from the internet without an SSH key
@@ -86,8 +85,7 @@ Match Group sftpusers
 
 Match Address 10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
         # Set this to "no" to require SSH key to login from local nets
-        PasswordAuthentication yes
-EOF
+        PasswordAuthentication yes' | sudo tee sshd_config
 ```
 
 ## Restart OpenSSH Service
