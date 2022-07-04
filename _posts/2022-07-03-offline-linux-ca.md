@@ -58,7 +58,7 @@ sudo touch index
 
 ```shell
 sudo echo '[ca]
-#/etc/ssl/root-ca/root-ca.conf
+#/etc/ssl/root-ca/openssl.cnf
 #see man ca
 default_ca                      = CA_default
 
