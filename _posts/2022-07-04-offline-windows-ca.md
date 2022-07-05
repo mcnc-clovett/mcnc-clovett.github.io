@@ -38,7 +38,7 @@ notepad.exe CAPolicy.inf
 ```
 3. Answer `Yes` to create the new file
 4. Copy this text into the file
-    ```
+    ```ini
 [Version]
 Signature="$Windows NT$"
 [Certsrv_Server]
