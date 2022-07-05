@@ -13,7 +13,7 @@ Choosing to host your offline root CA on a Windows-based system, rather than Lin
 > If a root CA is in some way compromised (broken into, hacked, stolen, or accessed by an unauthorized or malicious person), then all of the certificates that were issued by that CA are also compromised. Since certificates are used for data protection, identification, and authorization, the compromise of a CA could compromise the security of an entire organizational network. For that reason, many organizations that run internal PKIs install their root CA offline. That is, the CA is never connected to the company network, which makes the root CA an offline root CA. Make sure that you keep all CAs in secure areas with limited access.[^fn-rootCA] <br><br>
 *-- Microsoft TechNet*
 
-## System Requirements
+## Requirements
 * Latest Windows Server available installed on a single-purpose physical server
     * You will need to be able to transfer files to and from this device via USB drive.
     * We'll be using Windows Server 2022 for this example.
@@ -45,7 +45,7 @@ Signature="$Windows NT$"
 RenewalKeyLength=4096
 RenewalValidityPeriod=Years
 RenewalValidityPeriodUnits=20
-AlternateSignatureAlgorithm=0
+AlternateSignatureAlgorithm=1
     ```
     {: file='C:\Windows\CAPolicy.inf'}
 
