@@ -285,4 +285,4 @@ sudo umount /media
 You may now shutdown the server and store it. The only times the server will be needed are when you stand up a new subordinate (intermediate) certificate authority, or when a sub-CA needs its certificate renewed. Sub-CA's should renew their certificates every ten years or so.
 
 ## Footnotes
-[^fn-rootCA]: [https://social.technet.microsoft.com/wiki/contents/articles/2900.offline-root-certification-authority-ca.aspx](https://social.technet.microsoft.com/wiki/contents/articles/2900.offline-root-certification-authority-ca.aspx)
+[^fn-rootCA]: <https://social.technet.microsoft.com/wiki/contents/articles/2900.offline-root-certification-authority-ca.aspx>
