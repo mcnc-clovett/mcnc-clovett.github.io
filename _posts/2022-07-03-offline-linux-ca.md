@@ -242,9 +242,6 @@ Using configuration from /etc/ssl/root-ca/openssl.cnf
 Enter pass phrase for /etc/ssl/root-ca/private/ca.key:
 ```
 
-    > If creating a Windows Enterprise Subordinate CA, you will need this `ca.crl` file to import into Active Directory
-    {: .prompt-tip }
-
 ## Copy the Root CA Certificate and CRL from the Server
 1. Insert your USB drive
 2. Find the path to your device (all devices in Linux are represented by files)
@@ -280,6 +277,9 @@ sudo cp /etc/ssl/root-ca/certs/ca.crt /etc/ssl/root-ca/crl/ca.crl /media
 ```shell
 sudo umount /media
 ```
+
+    > If creating a Windows Enterprise Subordinate CA, you will need both the `ca.crl` and `ca.crt` files to import into Active Directory
+    {: .prompt-tip }
 
 ## Shutdown and Store the Machine
 You may now shutdown the server and store it. The only times the server will be needed are when you stand up a new subordinate (intermediate) certificate authority, or when a sub-CA needs its certificate renewed. Sub-CA's should renew their certificates every ten years or so.
