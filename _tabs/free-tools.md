@@ -8,7 +8,7 @@ We all love FREE.
 
 # Tool List (in not particular order)
 1. [MTR](#mtr)
-2. [WinMTR](#winmtr)
+2. [WinMTR](#winmtr-redux)
 3. [Tftpd64](#tftpd64)
 4. [Wireshark](#wireshark)
 5. [Nmap](#nmap)
