@@ -16,7 +16,7 @@ We all love FREE.
 7. [WinSCP](#winscp)
 8. [Chocolatey](#chocolatey)
 9. [Homebrew](#homebrew)
-10. [IIS Crypto]()
+10. [IIS Crypto](#iis-crypto)
 11. [7-zip](#7-zip)
 12. [Notepad++](#notepad)
 13. [OpenSSH](#openssh)
@@ -157,7 +157,7 @@ IIS Crypto is a free tool that gives administrators the ability to enable or dis
 * Homepage
     * <https://www.nartac.com/Products/IISCrypto/>
 * Download Page
-    * https://www.nartac.com/Products/IISCrypto/Download
+    * <https://www.nartac.com/Products/IISCrypto/Download>
 * Install Commands
     * Windows ([Chocolatey](#chocolatey))
         * `choco install iiscrypto`
