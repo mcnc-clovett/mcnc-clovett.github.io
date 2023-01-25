@@ -16,9 +16,10 @@ We all love FREE.
 7. [WinSCP](#winscp)
 8. [Chocolatey](#chocolatey)
 9. [Homebrew](#homebrew)
-10. [7-zip](#7-zip)
-11. [Notepad++](#notepad)
-12. [OpenSSH](#openssh)
+10. [IIS Crypto]()
+11. [7-zip](#7-zip)
+12. [Notepad++](#notepad)
+13. [OpenSSH](#openssh)
 
 ## MTR
 mtr combines the functionality of the 'traceroute' and 'ping' programs in a single network diagnostic tool.
@@ -148,6 +149,18 @@ Homebrew installs the stuff you need that Apple (or your Linux system) didn’t.
         * ```terminal
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         ```
+
+## IIS Crypto
+IIS Crypto is a free tool that gives administrators the ability to enable or disable protocols, ciphers, hashes and key exchange algorithms on Windows Server 2008, 2012, 2016, 2019 and 2022. It also lets you reorder SSL/TLS cipher suites offered by IIS, change advanced settings, implement Best Practices with a single click, create custom templates and test your website.
+* Supported Operating System
+    * Windows
+* Homepage
+    * <https://www.nartac.com/Products/IISCrypto/>
+* Download Page
+    * https://www.nartac.com/Products/IISCrypto/Download
+* Install Commands
+    * Windows ([Chocolatey](#chocolatey))
+        * `choco install iiscrypto`
 
 ## 7-zip
 7-Zip is a file archiver with a high compression ratio.
