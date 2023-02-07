@@ -6,7 +6,7 @@ order: 3
 ---
 We all love FREE. 
 
-# Tool List (in not particular order)
+# Tool List (in no particular order)
 1. [MTR](#mtr)
 2. [WinMTR](#winmtr-redux)
 3. [Tftpd64](#tftpd64)
