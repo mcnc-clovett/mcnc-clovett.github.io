@@ -100,7 +100,7 @@ certutil -setreg CA\ValidityPeriodUnits 10
 certutil -setreg CA\ValidityPeriod "Years"
 ```
 
-## Restart the Certificate Authority Service and Publich the CRL
+## Restart the Certificate Authority Service and Publish the CRL
 1. Restart the CA service
 ```powershell
 Restart-Service certsvc

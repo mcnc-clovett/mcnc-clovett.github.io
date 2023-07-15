@@ -52,5 +52,5 @@ We've all seen the certificate error on connecting to remote systems. RDP uses T
     * Click **OK**
 7. Close the *Group Policy Management Editor* and *Group Policy Management* windows
 
-> Once domain devices perform Grop Policy updates, they will automatically enroll with this new RDP certificate. Afterwards, all domain devices will trust the certificates presented by other domain-joined machines.
+> Once domain devices perform Group Policy updates, they will automatically enroll with this new RDP certificate. Afterwards, all domain devices will trust the certificates presented by other domain-joined machines.
 {: .prompt-info}
