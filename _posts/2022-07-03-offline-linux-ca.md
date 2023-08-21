@@ -77,7 +77,7 @@ certificate                     = $dir/certs/ca.crt
 crlnumber                       = $dir/crlnumber
 crl                             = $dir/crl/ca.crl
 crl_extensions                  = crl_ext
-default_crl_days                = 30
+default_crl_days                = 397
 
 default_md                      = sha256
 
