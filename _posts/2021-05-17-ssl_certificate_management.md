@@ -19,7 +19,7 @@ openssl x509 -in mycert.pem -text -noout
 openssl pkey -in mypriv.key -text -noout
 ```
 
-### Convert to DER (\*.cer \\ *.der) {#pem2der}
+### Convert to DER (\*.cer \\ \*.der) {#pem2der}
 ```bash
 openssl x509 -in mycert.pem -outform der -out mycert.cer
 ```
@@ -30,14 +30,20 @@ openssl crl2pkcs7 -nocrl -certfile mycert.pem -out mycert.p7b
 ```
 
 ### Convert to PKCS12 (\*.pfx) {#pem2pfx}
+#### Linux or macOS
 ```bash
 # If encrypted, you will be prompted for the private key password
 # You will be prompted to provide a password for the PFX file
 openssl pkcs12 -export -in mycert.pem -inkey mypriv.key -out mycert.pfx
 ```
+#### Windows
+Note: Certutil looks for a \*.key file matching the name of the \*.crt file. Ensure that the \*.crt and \*.key files have the same name (ie. mycert.crt and mycert.key).
+```terminal
+certutil -mergepfx mycert.crt mycert.pfx
+```
 
 ---
-## DER Format (\*.cer \\ *.der) {#der}
+## DER Format (\*.cer \\ \*.der) {#der}
 The [DER](https://datatracker.ietf.org/doc/html/rfc1421){:target="_blank"} format is a binary file representing an [X.509](https://datatracker.ietf.org/doc/html/rfc5280){:target="_blank"} certificate, or the certificate you are presented in your browser. Opening this file in a text editor will display garbage, due to it being binary and not text, like PEM. Your private key will ***not*** be in DER format.
 ### View Public Key {#der2pk}
 ```bash
