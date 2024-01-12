@@ -15,6 +15,8 @@ page for more assistance.
 
 [Apple Services](/pacsnips/apple.html)
 
+[Update Services](/pacsnips/update-services.html)
+
 [Zoom](/pacsnips/zoom.html)
 
 [NCEdCloud](/pacsnips/ncedcloud.html)
