@@ -28,7 +28,7 @@ if (
   dnsDomainIs(host, ".live.net") ||
   dnsDomainIs(host, ".microsoftonline.com") ||
   dnsDomainIs(host, ".sharepointonline.com") ||
-  dnsDomainIs(host, ".sharepoint.com")
+  dnsDomainIs(host, ".sharepoint.com") ||
   dnsDomainIs(host, ".windowsupdate.com") ||
   dnsDomainIs(host, ".gfx.ms") ||
   dnsDomainIs(host, "onedrive.live.com")
