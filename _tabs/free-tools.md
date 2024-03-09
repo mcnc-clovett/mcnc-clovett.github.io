@@ -20,6 +20,7 @@ We all love FREE.
 11. [7-zip](#7-zip)
 12. [Notepad++](#notepad)
 13. [OpenSSH](#openssh)
+14. [Visual Subnet Calculator](#visual-subnet-calculator)
 
 ## MTR
 mtr combines the functionality of the 'traceroute' and 'ping' programs in a single network diagnostic tool.
@@ -204,3 +205,8 @@ OpenSSH is the premier connectivity tool for remote login with the SSH protocol.
     * Its built into your OS...
 * Install Commands
     * Seriously, its built into your OS. Stop using PuTTY.
+
+## Visual Subnet Calculator
+Visual Subnet Calculator is a website that allows you to divide a given network into smaller subnets easily.
+* Homepage
+    * <https://www.davidc.net/sites/default/subnets/subnets.html>
