@@ -42,7 +42,7 @@ RenewalValidityPeriod=Years
 RenewalValidityPeriodUnits=10
 CRLPeriod=weeks
 CRLPeriodUnits=1
-LoadDefaultTemplates=0
+LoadDefaultTemplates=1
 AlternateSignatureAlgorithm=1
 [CRLDistributionPoint]
 [AuthorityInformationAccess]
