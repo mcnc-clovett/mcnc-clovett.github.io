@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://raw.githubusercontent.com/mcnc-clovett/cdn/master'
+cdn: 'https://raw.githubusercontent.com/mcnc-clovett/cdn/master'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/common/mcnc_cne_300.png'
