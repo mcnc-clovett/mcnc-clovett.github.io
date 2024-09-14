@@ -18,7 +18,7 @@ This guide covers the second part of a **two-tiered** certificate authority (CA)
     * This can either be [Linux](/posts/offline-linux-ca/) or [Windows](/posts/offline-windows-ca/)-based and is covered elsewhere on this site
 * (Recommended) [Private Enterprise Number](https://en.wikipedia.org/wiki/Private_Enterprise_Number) or [OID](https://en.wikipedia.org/wiki/Object_identifier) to represent your organization
     * One of these numbers can be obtained at no cost from IANA, here: [IANA PEN Application Form](https://pen.iana.org/pen/PenApplication.page)
-    * You can check the registry to see if your organization has already obtained one, here: [IANA PEN Registry](http://www.iana.org/assignments/enterprise-numbers)
+    * You can check the registry to see if your organization has already obtained one, here: [IANA PEN Registry](https://www.iana.org/assignments/enterprise-numbers)
 
 ## Create CAPolicy.inf File
 1. Open Powershell as **Administrator**

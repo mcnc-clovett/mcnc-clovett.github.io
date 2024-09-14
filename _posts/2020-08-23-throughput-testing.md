@@ -20,7 +20,7 @@ networking stack will likely affect your results.
 
 ### Windows 10 / Server
 
-Visit [this page](http://files.budman.pw){:target="_blank"} and download the latest version for Windows, 
+Visit [this page](https://files.budman.pw){:target="_blank"} and download the latest version for Windows, 
 which is 3.9 as of this writing. Once the zip file is downloaded, right click the file and click Extract All. 
 Follow the Windows extraction wizard and note where you've extracted the files, such as `C:\Users\<yourname>\Downloads\`.
 
