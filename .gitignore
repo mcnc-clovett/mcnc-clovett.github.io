@@ -1,3 +1,6 @@
+# the Gem lock
+Gemfile.lock
+
 # hidden files
 .*
 !.git*
