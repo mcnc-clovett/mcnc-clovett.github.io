@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn: 'https://raw.githubusercontent.com/mcnc-clovett/cdn/master'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/common/mcnc_cne_300.png'
+avatar: '/common/mcnc_cne_300v2.png'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
